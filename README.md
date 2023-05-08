@@ -47,7 +47,7 @@ Your client is happy to hear you have learned JavaScript and has hired you to ad
 6. On the submit button, add the onclick attribute so that the **formSubmit** function runs when the button is clicked.
 7. After the closing form tag, add a paragraph with a statement letting the user know the form has been reset.
    - Apply an id to the paragraph. The ID should match the JavaScript statement: `resetMessage`.
-   - Style the ID selector (on your external stylesheet). 
+   - Style the id selector (on your external stylesheet). 
       - The visibility should be set to "hidden". ***You want the statement to be hidden until the Reset button is clicked.*** 
       - Set the font to be bold and red.
 8. Within the footer element, within the same paragraph as the copyright information, utilize the appropriate elements and attributes to achieve the following:
@@ -56,7 +56,7 @@ Your client is happy to hear you have learned JavaScript and has hired you to ad
 
 ## Example Project
 The following image shows the results of clicking the Submit button, clicking the Reset button, and displaying the Last Modified information.
-![Screenshot of completed project]((https://raw.githubusercontent.com/rsc-cis133DA-in-v12/CourseResources/main/L10-example2.png))
+![Screenshot of completed project](https://raw.githubusercontent.com/rsc-cis133DA-in-v12/CourseResources/main/L11-example1.png)
 
 
 ## Submit the Project
