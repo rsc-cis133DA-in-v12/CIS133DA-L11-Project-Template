@@ -34,6 +34,10 @@ Your client is happy to hear you have learned JavaScript and has hired you to ad
    - The function should include a JavaScript statement that targets an element with an id of "resetMessage" and sets the visibility style value to visible for that element.
 6. Create single-line comments before the two functions and the last modified statement explaining what each one does.
 
+***
+**This would be a great time to Save, Sync, and apply a Commit!**
+***
+
 ## Update the Schedule Page
 1. If necessary, open the `schedule.html` file.
 2. Update the comment within the header element with the correct information.
@@ -50,28 +54,10 @@ Your client is happy to hear you have learned JavaScript and has hired you to ad
    - After the small element, add the text and dash: `Last Modified -`
    - Create an inline element with an id of `lastModified`. This is where the last modified information will be placed.
 
-## Example Reset Message
-This is an example of what should happen when you click the reset button.
-
-![Screenshot of reset button message]()
-
-## Example Submit Button
-This is an example of should happen when you click the submit button
-
-![Screenshot of submit button alert]()
-
-## Style the Schedule Page
-1. Within the external stylesheets, style the reset message paragraph with the following:
-   1. Visibility is hidden by default.
-   2. Apply a dark background color. Be sure that the text is legible.
-   3. Adjust the width so that it does not span the full width of the page.
-   4. Adjust the white space of the element for better text readability.
-2. Apply the necessary CSS properties (including, but not limited to: box model properties, font information, and color) so the form is readable and usable within the mobile and tablet views.
-
 ## Example Project
-This is an example of what the project should look similar to before you submit.
+The following image shows the results of clicking the Submit button, clicking the Reset button, and displaying the Last Modified information.
+![Screenshot of completed project]((https://raw.githubusercontent.com/rsc-cis133DA-in-v12/CourseResources/main/L10-example2.png))
 
-![Screenshot of the Schedule Page]()
 
 ## Submit the Project
 Once you have completed your project, you need to let your instructor know that it is ready to be graded. This is done by submitting the Repo URL to the assignment in RioLearn.
