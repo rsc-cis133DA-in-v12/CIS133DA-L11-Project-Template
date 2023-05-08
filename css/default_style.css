@@ -82,6 +82,30 @@ main {
     margin: 0 auto;
 }
 
+/*Table Styles **/
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: #000000 thin solid;
+    background-color: #ffffff;
+    padding: 5px;
+}
+
+th {
+    background-color: #135367;
+    color: #ffffff;
+    padding: 10px;
+    border-bottom: #000000 medium solid; /*Step #7*/
+}
+
+.left_label {
+    border-right: #000000 medium solid; /*Step #8 - need to apply class to labels*/
+}
+
 /*Form Styles */
 
 form {
