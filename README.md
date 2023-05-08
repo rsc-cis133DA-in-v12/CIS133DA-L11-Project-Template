@@ -11,7 +11,7 @@ Your client is happy to hear you have learned JavaScript and has hired you to ad
 3. If there are files and folders present other than this `readme.md` file, take some time to familiarize yourself with the files within the repo so you know where they are located. This will help you when asked to use them within the project directions.
 
    > **TIP:** Before beginning any work on the project, read through all the steps to understand what you will be doing.
-4. Create a subfolder to the Lesson 11 course folder called:` scripts`
+4. Create a subfolder within the Lesson 11 Repo folder called: `scripts`
 5. Create a new file within the scripts subfolder called: `javascript.js` 
 
 <br>
@@ -25,28 +25,25 @@ Your client is happy to hear you have learned JavaScript and has hired you to ad
 ## Create the Script
 1. If necessary, open the `javascript.js` file.
 2. Create a multi-line comment listing your name as the author and your course and section number.
-3. Create a JavaScript statement to:
-   1. Target an element with an id of "lastmodified"
+3. Create a JavaScript statement that will:
+   1. Target an element with an id of "lastmodified".
    2. Set the inner HTML of that element to be the document's last modified property.
-4. Create a function that will create an alert for when the form is submitted:
-   1. Give the function a name.
-   2. Create a code block. 
-   3. Within the code block, write a JavaScript statement to display an alert with a message letting the user know the form has been submitted.
-5. Create another function that will unhide a hidden element when the reset button is pressed:
-   1. Give the function a name.
-   2. Create a code block.
-   3. Within the code block, write a JavaScript statement to target an element with an id of "resetmessage" and set the visibility style value to visible.
+4. Create a function called `formSubmit` that will create an alert message when the form is submitted. 
+   - The alert message should let the user know that the form has been submitted.
+5. Create a second function called `formReset` that will unhide an element when the reset button is pressed:
+   - The function should include a JavaScript statement that targets an element with an id of "resetMessage" and sets the visibility style value to visible for that element.
 6. Create single-line comments before the two functions and the last modified statement explaining what each one does.
 
 ## Update the Schedule Page
 1. If necessary, open the `schedule.html` file.
 2. Update the comment within the header element with the correct information.
 3. Update the metadata for the page to appropriately reflect the information that the page will contain.
-4. Utilize the appropriate element so the external JavaScript file is loaded as the last element of the body.
-5. On the reset button, add the onclick attribute with a function name of your choosing for your reset message as the value.
-6. On the submit button, add the onclick attribute with a function name of your choosing for the form submission message as the value.
+4. Add the appropriate element so the external JavaScript file is loaded as the last element of the body.
+5. On the reset button, add the onclick attribute so that the **formReset** function runs when the button is clicked. 
+6. On the submit button, add the onclick attribute so that the **formSubmit** function runs when the button is clicked.
 7. After the closing form tag, add a paragraph with a statement letting the user know the form has been reset.
-   1. Apply an id to the paragraph with the appropriate value that matches the appropriate JavaScript statement.
+   1. Apply an id to the paragraph. The ID should match the JavaScript statement: `resetMessage`.
+   2. Apply an inline style to the paragraph that sets the visibility of the paragraph to "hidden". You want the statement to be hidden until the Reset button is clicked.
 8. Within the footer element, within the same paragraph as the copyright information, utilize the appropriate elements and attributes to achieve the following:
    1. After the small element, add the text and dash: Last Modified -
    2. Create an inline element with an id and value of your choosing. This is where the last modified information will be placed.
