@@ -26,8 +26,8 @@ Your client is happy to hear you have learned JavaScript and has hired you to ad
 1. If necessary, open the `javascript.js` file.
 2. Create a multi-line comment listing your name as the author and your course and section number.
 3. Create a JavaScript statement that will:
-   1. Target an element with an id of "lastmodified".
-   2. Set the inner HTML of that element to be the document's last modified property.
+   - Target an element with an id of "lastmodified".
+   - Set the inner HTML of that element to be the document's last modified property.
 4. Create a function called `formSubmit` that will create an alert message when the form is submitted. 
    - The alert message should let the user know that the form has been submitted.
 5. Create a second function called `formReset` that will unhide an element when the reset button is pressed:
@@ -42,11 +42,13 @@ Your client is happy to hear you have learned JavaScript and has hired you to ad
 5. On the reset button, add the onclick attribute so that the **formReset** function runs when the button is clicked. 
 6. On the submit button, add the onclick attribute so that the **formSubmit** function runs when the button is clicked.
 7. After the closing form tag, add a paragraph with a statement letting the user know the form has been reset.
-   1. Apply an id to the paragraph. The ID should match the JavaScript statement: `resetMessage`.
-   2. Apply an inline style to the paragraph that sets the visibility of the paragraph to "hidden". You want the statement to be hidden until the Reset button is clicked.
+   - Apply an id to the paragraph. The ID should match the JavaScript statement: `resetMessage`.
+   - Style the ID selector (on your external stylesheet). 
+      - The visibility should be set to "hidden". ***You want the statement to be hidden until the Reset button is clicked.*** 
+      - Set the font to be bold and red.
 8. Within the footer element, within the same paragraph as the copyright information, utilize the appropriate elements and attributes to achieve the following:
-   1. After the small element, add the text and dash: Last Modified -
-   2. Create an inline element with an id and value of your choosing. This is where the last modified information will be placed.
+   - After the small element, add the text and dash: `Last Modified -`
+   - Create an inline element with an id of `lastModified`. This is where the last modified information will be placed.
 
 ## Example Reset Message
 This is an example of what should happen when you click the reset button.
