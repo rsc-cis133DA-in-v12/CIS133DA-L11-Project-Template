@@ -26,7 +26,7 @@ Your client is happy to hear you have learned JavaScript and has hired you to ad
 1. If necessary, open the `javascript.js` file.
 2. Create a multi-line comment listing your name as the author and your course and section number.
 3. Create a JavaScript statement that will:
-   - Target an element with an id of "lastmodified".
+   - Target an element with an id of "lastModified".
    - Set the inner HTML of that element to be the document's last modified property.
 4. Create a function called `formSubmit` that will create an alert message when the form is submitted. 
    - The alert message should let the user know that the form has been submitted.
